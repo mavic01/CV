@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor's Portfolio</title>
+    <!--css file dat helps even out all the differences btw the different browser -->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"> 
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+    crossorigin="anonymous" />
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logoo.jpg" alt="">
+        </div>
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Works</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+            <!-- Introduction -->
+    <section class="intro">
+        <h1 class="section__title section__title--intro">The title <strong>of my project</strong></h1>
+        <p class="section__subtitle section__subtitle--intro">A full stack web developer</p>
+        <img src="img/azaa.png" alt="Victor's image" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>For the blog app, I used HTML, CSS and Javascript for the frontend, and for the backend, nodejs and NPM packages like express, ejs, lodash and body-parser. Nodemon was used to automatically reload the server and heroku was used to deploy.</p>
+        <img src="img/sservices-bg.png" alt="">
+        <p>HTML, CSS and Javascript was used for the frontend of the Newsletter Sign-up app, and for the backend, I used NodeJS and NPM packages like express, body-parser, Nodemon and ejs. Mailchimp's API was used to handle POST requests to my Mailchimp mailing list. Heroku was also used to deploy </p>
+        <p>For the To-Do app, I used HTML, CSS and Javascript for the frontend, and for the backend, nodejs and NPM modules like express and its route parameters, lodash,  ejs and body-parser. Express route parameters was used in creating pages dynamically Nodemon was used to spinoff the server and Heroku server was used to deploy the app.</p>
+        <p>For the Weather app, I used HTML, CSS and Javascript for the frontend, and for the backend, NodeJS and NPM packages like express and its route parameters, body-parser and ejs. It uses data from mapbox.com and weatherstack.com. Heroku was used to deploy </p>
+        <p>This Tindog Website was created using HTML, CSS and bootstrap. It was deploy on the web using github pages.</p>
+        <p>The Personal website was created using HTML, CSS and bootstrap. It was deploy on the web using github pages.</p>
+        <p>The Drumkit website was created using HTML, CSS and jQuery. It was deploy on the web using github pages.</p>
+        <p>The Music Player was created using HTML, CSS and javascript. It was deploy on the web using github pages.</p>
+        <p>The Book-List was created using HTML, CSS and javascript. It was deploy on the web using github pages.</p>
+        <p>The Countdown timer was created using HTML, CSS and javascript. It was deploy on the web using github pages.</p>
+        <p>JSON Server was created using Node and npm packages like express and JSON  web server. Heroku was used to deploy.</p>
+        
+        <p>My designs were made using adobe photoshop and adobe illustrator.</p>
+        <p>All artworks were made using graphite and charcoal pencils.</p>
+
+    </div>
+
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <a href="mailto:iberivictor7@gmail.com" class="footer__link">iberivictor7@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.instagram.com/mavic_art" target="_blank" class="social-list__link"><i class="fab fa-instagram"></i></a></li>
+            <li class="social-list__item">
+                <a href="https://twitter.com/IberiV" target="_blank" class="social-list__link"><i class="fab fa-twitter"></i></a></li>
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/victor-iberi-018904175" target="_blank" class="social-list__link"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+
+        <p class="copyright">&copy 2021 Victor Iberi.</p>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
